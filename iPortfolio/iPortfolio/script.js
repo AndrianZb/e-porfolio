@@ -13,6 +13,6 @@ client.getEntries({
 })
     .then(texts => {
         alert('DONE');
-    console.log('texts', texts);
-   
-}
+        console.log('texts', texts);
+
+    });
