@@ -1,5 +1,6 @@
-import 'regenerator-runtime/runtime'
-import * as contentful from 'contentful'
+
+var contentful = require('contentful');
+
 
 var client = contentful.createClient({
     space: 'sqzdd6o0iz0g',
@@ -10,7 +11,8 @@ client.getEntries({
 
     'content_type': 'staticText'
 })
-    .then(texts  => {
+    .then(texts => {
+        alert('DONE');
     console.log('texts', texts);
    
 }
