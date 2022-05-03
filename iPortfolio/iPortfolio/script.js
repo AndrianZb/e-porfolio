@@ -1,4 +1,4 @@
-
+alert('hi');
 var contentful = require('contentful'); 
 
 
