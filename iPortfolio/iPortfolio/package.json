@@ -2,5 +2,6 @@
   "dependencies": {
     "contentful": "^9.1.27",
     "esm": "^3.2.25"
-  }
+  },
+  "type": "module"
 }
