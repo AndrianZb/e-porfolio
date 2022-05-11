@@ -43,7 +43,7 @@ export const getBlogs = async () => {
     console.log(err);
   }
 };
-
+alert('hello');
 
 export const getBlog = async (slug) => {
   try {
